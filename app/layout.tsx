@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
-// @ts-expect-error - CSS import with Tailwind
 import "./globals.css";
 
 const poppins = Poppins({

@@ -1,6 +1,6 @@
 import { Category } from '@/app/types';
 
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://devlove.vercel.app';
 
 export const CATEGORIES: Category[] = [
   { key: 'random', label: '✨ All', icon: '✨' },
